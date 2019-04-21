@@ -15,3 +15,16 @@
         @mixin-content;
     }
 }
+
+@define-mixin clearfix {
+    /* this code clears floats */
+
+    /* adds blank space after all of the content in the main row div
+    creates that content where we put the old empty div, and it separates
+    the sections adequately */
+    &::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}

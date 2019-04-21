@@ -7,3 +7,8 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+* {
+    box-sizing: border-box;
+    /* padding still applied, but won't affect calculated width values */
+}
