@@ -1,0 +1,36 @@
+.headline {
+    font-weight: 300;
+    font-size: 2.875rem;
+    color: $mainBlue;
+
+    &--centered {
+        text-align: center;
+    }
+
+    &--orange {
+        color: $mainOrange;
+    }
+
+    &--small {
+        font-size: 1.875rem;
+    }
+
+    &--narrow {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &--light {
+        font-weight: 100;
+    }
+
+    &--b-margin-small {
+    /* em is rel to the font size of the element itself, so we can reuse on headlines with diff font sizes and it will scale by itself */
+        margin-bottom: .5em;
+    }
+
+    &--b-margin-large {
+        margin-bottom: 1.6em;
+    }
+}
