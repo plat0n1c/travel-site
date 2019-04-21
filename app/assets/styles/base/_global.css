@@ -12,3 +12,7 @@ img {
     box-sizing: border-box;
     /* padding still applied, but won't affect calculated width values */
 }
+
+a {
+    color: $mainOrange;
+}
