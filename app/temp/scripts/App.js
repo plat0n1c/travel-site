@@ -104,7 +104,7 @@ var MobileMenu = function () {
         _classCallCheck(this, MobileMenu);
 
         this.menuIcon = (0, _jquery2.default)(".site-header__menu-icon");
-        this.menuContent = (0, _jquery2.default)("site-header__menu-content");
+        this.menuContent = (0, _jquery2.default)(".site-header__menu-content");
         this.events();
     }
 
