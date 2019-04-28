@@ -5,7 +5,11 @@ instead, edit gulp/templates/sprite */
     {{#first}}
         /* any code here only runs once, on the first loop through */
     .icon {
-        background-image: url('/assets/images/sprites/{{{sprite}}}');    
+        background-image: url('/assets/images/sprites/{{{sprite}}}');
+    }
+
+    .no-svg .icon {
+        background-image: url('/assets/images/sprites/{{#replaceSvgWithPng}}{{{sprite}}}{{/replaceSvgWithPng}}');
     }
 
     {{/first}}
